@@ -1,10 +1,8 @@
-# Function to print a simple star pattern
-def print_star_pattern(rows):
-    for i in range(1, rows + 1):
-        print("*" * i)
+def Add(a, b):
+        return a + b
+        
+def SayHello():
+        print("sup world from srcmake")
 
-# Set the number of rows for the star pattern
-num_rows = 5
-
-# Call the function to print the star pattern
-print_star_pattern(num_rows)
+if __name__ == '__main__':
+        SayHello()
